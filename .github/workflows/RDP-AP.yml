@@ -6,7 +6,7 @@ jobs:
   build:
 
     runs-on: windows-latest
-    timeout-minutes: 9999
+    timeout-minutes: 10000
 
     steps:
     - name: Download Ngrok & NSSM
@@ -18,7 +18,7 @@ jobs:
         copy nssm.exe C:\Windows\System32
         copy ngrok.exe C:\Windows\System32
     - name: Connect your NGROK account
-      run: .\ngrok.exe authtoken 2M3J0ws6ic0NXoXBibIddlmYAej_4RZTgLQr2HfzBge7zb5us
+      run: .\ngrok.exe authtoken 257vae5oyT0Fqv6rOvmflHMXjuP_7JzgFUu743LFxiFRWNqni
       env:
         NGROK_AUTH_TOKEN: ${{ secrets.NGROK_AUTH_TOKEN }}
     - name: Download Important Files.
