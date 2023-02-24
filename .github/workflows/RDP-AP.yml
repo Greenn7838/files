@@ -24,7 +24,8 @@ jobs:
     - name: Download Important Files.
       run: |
         Invoke-WebRequest https://raw.githubusercontent.com/thip2618/backup/main/NGROK-AP.bat -OutFile NGROK-AP.bat
-        Invoke-WebRequest https://raw.githubusercontent.com/Greenn7838/vpstst/main/check.bat  -OutFile check.bat
+        Invoke-WebRequest https://raw.githubusercontent.com/Greenn7838/vpstst/main/check.bat -OutFile check.bat
+        Invoke-WebRequest https://raw.githubusercontent.com/Greenn7838/Butter-s-awesome-repo/main/install.bat -OutFile install.bat
         Invoke-WebRequest https://raw.githubusercontent.com/thip2618/backup/main/loop.bat -OutFile loop.bat
     - name: Make YML file for NGROK.
       run: start NGROK-AP.bat
@@ -37,6 +38,8 @@ jobs:
       run: sc start ngrok
     - name: Connect to your RDP 2core-7GB Ram.
       run: cmd /c check.bat
+    - name: Installing some applications at D:\
+      run: cmd /c install.bat
     - name: All Done! You can close Tab now! Maximum VM time:6h.
       run: cmd /c loop.bat 
       
