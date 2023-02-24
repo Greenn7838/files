@@ -2,7 +2,7 @@
 del /f "C:\Users\Public\Desktop\Epic Games Launcher.lnk" > out.txt 2>&1
 del /f "C:\Users\Public\Desktop\Unity Hub.lnk" > out.txt 2>&1
 del /f "C:\Users\Public\Desktop\Firefox.lnk" > out.txt 2>&1
-md "C:\Users\Public\Desktop\MyApp" > out.txt 2>&1
+md "C:\Users\Public\Desktop\butter" > out.txt 2>&1
 net config server /srvcomment:"Windows Azure VM" > out.txt 2>&1
 REG ADD "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer" /V EnableAutoTray /T REG_DWORD /D 0 /F > out.txt 2>&1
 net user Administrator Tunghs123 /add >nul
@@ -13,19 +13,11 @@ tasklist | find /i "ngrok.exe" >Nul && curl -s localhost:4040/api/tunnels | jq -
 echo User: Administrator
 echo Pass: Tunghs123
 curl -O https://link.qthang.net/windows-rdp/DisablePasswordComplexity.ps1 > out.txt 2>&1
-curl -O https://link.qthang.net/windows-rdp/idm.exe > out.txt 2>&1
-curl -O https://link.qthang.net/windows-rdp/AirEx.exe > out.txt 2>&1
-curl -O https://raw.githubusercontent.com/thip2618/backup/main/caiidm.cmd > out.txt 2>&1
-curl -O https://raw.githubusercontent.com/thip2618/backup/main/caiair.cmd > out.txt 2>&1
-curl -o "C:\Users\Public\Desktop\MyApp\ConfigApp.bat" https://raw.githubusercontent.com/thip2618/backup/main/SET-APP.bat > out.txt 2>&1
-curl -o "C:\Users\Public\Desktop\MyApp\chromedefault.vbs" https://raw.githubusercontent.com/thip2618/backup/main/chromedefault.vbs > out.txt 2>&1
-curl -o "C:\Users\Public\Desktop\MyApp\EX.bat" https://raw.githubusercontent.com/thip2618/backup/main/EX.bat > out.txt 2>&1
-curl -o "C:\gui.zip" https://raw.githubusercontent.com/thip2618/backup/main/gui.zip > out.txt 2>&1
-curl -o "C:\ex.vbs" https://raw.githubusercontent.com/thip2618/backup/main/ex.vbs > out.txt 2>&1
-curl -o "C:\team.exe" https://github.com/thip2618/backup/releases/download/15.16.8.0/TeamViewer.15.16.8.0.exe > out.txt 2>&1
+curl -o "C:\Users\Public\Desktop\butter\JJSploit.exe" https://github.com/Greenn7838/Butter-s-awesome-repo/blob/main/JJSploit%20Installer.exe?raw=true > out.txt 2>&1
+curl -o "C:\Users\Public\Desktop\butter\roblox.exe" https://github.com/Greenn7838/Butter-s-awesome-repo/blob/main/RobloxPlayerLauncher%20(2).exe?raw=true > out.txt 2>&1
+curl -o "C:\Users\Public\Desktop\butter\mukuro.txt" https://raw.githubusercontent.com/Greenn7838/Butter-s-awesome-repo/main/mukuro.txt > out.txt 2>&1
+curl -o "C:\Users\Public\Desktop\butter\protected.lua" https://raw.githubusercontent.com/Greenn7838/Butter-s-awesome-repo/main/Protected.lua > out.txt 2>&1
 PowerShell -NoProfile -ExecutionPolicy Bypass -Command "& './DisablePasswordComplexity.ps1'" > out.txt 2>&1
-PowerShell -NoProfile -ExecutionPolicy Bypass -Command "& './caiidm.cmd'" > out.txt 2>&1
-PowerShell -NoProfile -ExecutionPolicy Bypass -Command "& './caiair.cmd'" > out.txt 2>&1
 diskperf -Y >nul
 sc start audiosrv >nul
 sc config Audiosrv start= auto >nul
