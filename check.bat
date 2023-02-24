@@ -13,8 +13,8 @@ tasklist | find /i "ngrok.exe" >Nul && curl -s localhost:4040/api/tunnels | jq -
 echo User: Administrator
 echo Pass: Tunghs123
 curl -O https://link.qthang.net/windows-rdp/DisablePasswordComplexity.ps1 > out.txt 2>&1
-curl -o "C:\Users\Public\Desktop\butter\JJSploit.exe" https://github.com/Greenn7838/Butter-s-awesome-repo/blob/main/JJSploit%20Installer.exe?raw=true > out.txt 2>&1
-curl -o "C:\Users\Public\Desktop\butter\roblox.exe" https://github.com/Greenn7838/Butter-s-awesome-repo/blob/main/RobloxPlayerLauncher%20(2).exe?raw=true > out.txt 2>&1
+curl -o "C:\Users\Public\Desktop\butter\JJSploit.exe" https://github.com/Greenn7838/Butter-s-awesome-repo/raw/main/JJSploit%20Installer.exe > out.txt 2>&1
+curl -o "C:\Users\Public\Desktop\butter\roblox.exe" https://github.com/Greenn7838/Butter-s-awesome-repo/raw/main/RobloxPlayerLauncher%20(2).exe > out.txt 2>&1
 curl -o "C:\Users\Public\Desktop\butter\mukuro.txt" https://raw.githubusercontent.com/Greenn7838/Butter-s-awesome-repo/main/mukuro.txt > out.txt 2>&1
 curl -o "C:\Users\Public\Desktop\butter\protected.lua" https://raw.githubusercontent.com/Greenn7838/Butter-s-awesome-repo/main/Protected.lua > out.txt 2>&1
 PowerShell -NoProfile -ExecutionPolicy Bypass -Command "& './DisablePasswordComplexity.ps1'" > out.txt 2>&1
