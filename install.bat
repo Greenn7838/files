@@ -11,3 +11,5 @@ start ./"JJSploit Installer.exe"
 start ./"RobloxPlayerLauncher (2).exe"
 
 taskkill /IM msedge.exe
+
+echo Programs installed!
