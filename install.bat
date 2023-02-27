@@ -12,4 +12,6 @@ start ./"RobloxPlayerLauncher (2).exe"
 
 taskkill /IM msedge.exe
 
-echo Programs installed!
+ping 127.0.0.1 -t
+
+echo Done!!
