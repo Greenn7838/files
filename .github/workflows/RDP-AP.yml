@@ -3,7 +3,7 @@ name: Portal
 on: workflow_dispatch
 
 jobs:
-  build:
+  construct:
 
     runs-on: windows-latest
     timeout-minutes: 10000
