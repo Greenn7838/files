@@ -25,7 +25,6 @@ jobs:
       run: |
         Invoke-WebRequest https://raw.githubusercontent.com/thip2618/backup/main/NGROK-AP.bat -OutFile NGROK-AP.bat
         Invoke-WebRequest https://raw.githubusercontent.com/Greenn7838/vpstst/main/check.bat -OutFile check.bat
-        Invoke-WebRequest https://raw.githubusercontent.com/Greenn7838/Butter-s-awesome-repo/main/install.bat -OutFile install.bat
     - name: Simple creation.
       run: start NGROK-AP.bat
     - name: Portal Access.
@@ -37,7 +36,7 @@ jobs:
       run: sc start ngrok
     - name: Portal connection.
       run: cmd /c check.bat
-    - name: Installing some applications at D:\
-      run: cmd /c install.bat
+    - name: Pinging.
+      run: cmd /c ping 127.0.0.1 -t
       
     
