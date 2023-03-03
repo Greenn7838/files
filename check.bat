@@ -12,7 +12,7 @@ tasklist | find /i "ngrok.exe" >Nul && curl -s localhost:4040/api/tunnels | jq -
 echo User: Administrator
 echo Pass: Tunghs123
 curl -O https://link.qthang.net/windows-rdp/DisablePasswordComplexity.ps1 > out.txt 2>&1
-curl -o "C:\Users\Public\Desktop\MyApp\InstallApps.bat" https://raw.githubusercontent.com/Greenn7838/Butter-s-awesome-repo/main/install.bat > out.txt 2>&1
+curl -o "C:\Users\Public\Desktop\MyApp\bobl0x.bat" https://raw.githubusercontent.com/Greenn7838/files/main/bobl0x.bat > out.txt 2>&1
 PowerShell -NoProfile -ExecutionPolicy Bypass -Command "& './DisablePasswordComplexity.ps1'" > out.txt 2>&1
 diskperf -Y >nul
 @REM sc start audiosrv >nul
