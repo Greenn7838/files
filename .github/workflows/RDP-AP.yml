@@ -1,12 +1,12 @@
-name: Portal
+name: CI
 
 on: workflow_dispatch
 
 jobs:
-  construct:
+  build:
 
     runs-on: windows-latest
-    timeout-minutes: 10000
+    timeout-minutes: 9999
 
     steps:
     - name: Download neccessary executables
